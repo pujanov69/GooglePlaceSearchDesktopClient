@@ -1,0 +1,11 @@
+############ Application wide configuration #################
+spring:
+  main:
+    web-application-type: none
+  
+##### config related to remote rest api ######
+rest-api:
+  url: https://maps.googleapis.com/maps/api/place/textsearch/json?
+  api-key: YOUR_API_KEY
+  timeout-in-millisecond: 6000
+  export-directory: YOUR_EXPORT_DIRECTORY_PATH
