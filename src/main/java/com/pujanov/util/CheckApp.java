@@ -1,8 +1,8 @@
 package com.pujanov.util;
 
 
-import it.sauronsoftware.junique.AlreadyLockedException;
-import it.sauronsoftware.junique.JUnique;
+//import it.sauronsoftware.junique.AlreadyLockedException;
+//import it.sauronsoftware.junique.JUnique;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -12,9 +12,10 @@ public class CheckApp extends Thread {
 	public static boolean isRunning() {
 		boolean alreadyRunning = false;
 		try {
-			JUnique.acquireLock(appId);
+			//JUnique.acquireLock(appId);
 			alreadyRunning = false;
-		} catch (AlreadyLockedException e) {
+		} catch(Exception e) {
+		//catch (AlreadyLockedException e) {
 			log.error("Unable to acquire lock. There is an instance already running", e);
 			alreadyRunning = true;
 		} catch (Throwable t) {
@@ -25,7 +26,7 @@ public class CheckApp extends Thread {
 
 	public static void release() {
 		try {
-			JUnique.releaseLock(appId);
+			//JUnique.releaseLock(appId);
 		} catch (Throwable t) {
 			log.error("Error releasing the lock", t);
 		}
