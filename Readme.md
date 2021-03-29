@@ -13,3 +13,6 @@ https://drive.google.com/drive/folders/1AxllL9gAp4lVu400cMkNiFMsgSkhwvGK
 This executable is able to run on any machine that has the Java Runtime environment(JRE) installed.(Windows, mac or linux)
 (Note: This applicaton running from this executable will not retrieve the search results as no API key is being used in this one)
 
+
+Main View:
+![alt text](https://github.com/pujanov69/DevAdmin/blob/master/Desktop_app_demo.JPG?raw=true)
