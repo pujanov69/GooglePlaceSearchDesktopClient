@@ -14,5 +14,5 @@ This executable is able to run on any machine that has the Java Runtime environm
 (Note: This applicaton running from this executable will not retrieve the search results as no API key is being used in this one)
 
 
-Main View:
+
 ![alt text](https://github.com/pujanov69/GooglePlaceSearchDesktopClient/blob/master/Desktop_app_demo.JPG?raw=true)
