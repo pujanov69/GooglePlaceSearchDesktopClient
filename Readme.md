@@ -16,3 +16,5 @@ This executable is able to run on any machine that has the Java Runtime environm
 
 
 ![alt text](https://github.com/pujanov69/GooglePlaceSearchDesktopClient/blob/master/Desktop_app_demo.JPG?raw=true)
+
+![alt text](https://github.com/pujanov69/GooglePlaceSearchDesktopClient/blob/master/csvExportDemo.JPG?raw=true)
